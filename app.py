@@ -1,10 +1,11 @@
 import cv2
 import time
 
+#setup the camera 
 video_capture = cv2.VideoCapture(0)
 time.sleep(2)   
 
-
+#set var
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 out = cv2.VideoWriter('aibetavideooutput.avi', fourcc, 20.0, (640, 480))
 
@@ -33,7 +34,7 @@ while True:
             break
 
     if motion_detected:
-        out.write(frame2)
+        out.write(frame2) #record video
         cv2.putText(frame2, "Motion Detected", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
     cv2.imshow('Frame', frame2)
