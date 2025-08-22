@@ -1,0 +1,12 @@
+api:
+  apihost: https://api.customos.givemetocode.com/
+  apirequest: 1
+network:
+  networking: 1
+  testingapi: https://api.myip.com/
+settings:
+  name: git-i
+  timezone: UTC+8
+system:
+  setup: 1
+  sn-code: 807b9db6-7e17-4939-b3ef-a3489bd00ea8
