@@ -1,0 +1,14 @@
+tqdm
+psutil
+rich
+PyYAML
+pytz
+requests
+uuid
+pythonping
+flask
+flask_login
+gunicorn
+paho-mqtt
+paramiko
+opencv-python
