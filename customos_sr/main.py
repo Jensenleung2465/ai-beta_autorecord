@@ -53,5 +53,6 @@ with open('config.def.yaml', 'r') as file:
     config = yaml.safe_load(file)
 if config['system']['setup'] == 0 :
     setup()
-print("calling ai-beta application")
+print("copyright givemetocode.net 2025 info@givemetocode.com")
+print("calling ai-beta_d application")
 os.system('bash start.sh')
